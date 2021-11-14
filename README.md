@@ -1,2 +1,2 @@
 # CABIGAS
-For educational purposes only
+For educational purposes only in WEB DEVELOPMENT 
