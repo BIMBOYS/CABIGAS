@@ -1,0 +1,113 @@
+<!Doctype html>
+<html>
+<head>
+  <title>Registration_Cabigas</title>
+  <style>
+  body {
+  font-family: 'Nunito', sans-serif;
+  color: #384047;
+  
+}
+ table{
+   max-width: 600px;
+  margin: 30px auto;
+  padding: 30px 40px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.1);
+  border: none;
+  background-color: #e8eeef;
+  margin-bottom: 30px;
+}
+ }
+ textarea{
+   font-size: 1.4em;
+  margin-bottom: 10px;
+}
+ }
+</style>
+</head>
+<body>
+<form action="Reg.php" method="post" enctype="multipart/form-data">
+<fieldset>
+<legend align="left">Registration Form</legend>
+<center>
+<table>
+<tr>
+ <td>First name:</td>
+ <td>
+ <input type="text"  required="required" name="fn">
+ </td>
+ </tr>
+<tr>
+ <td>Middle name:</td>
+ <td>
+ <input type="text"  required="required" required name="mn">
+ </td>
+ </tr>
+<tr>
+ <td>Last name:</td>
+ <td>
+ <input type="text"  required="required" name="ln">
+ </td>
+ </tr>
+ <tr>
+ <td><label for="Gender">Gender:</label>
+</td>
+ <td>
+ <input type="radio" name="Gender" value="male">Male
+ <input type="radio" name="Gender" value="femele">Female
+ </td>
+ </tr>
+ <tr>
+ <td>Email Address:</td>
+ <td>
+ <input type="Email"  required="required" name="e1">
+ </td>
+ </tr>
+ <tr>
+ <td>Home Address:</td>
+ <td>
+ <textarea rows="4" cols="23" name="Home address"></textarea>
+ </td>
+ </tr>
+<tr>
+ <td><label for="Hobbies">Hobbies:</label></td>
+ <td>
+ <input type="checkbox" name="Hobbies" value="comgames">Computer games<br>
+ <input type="checkbox" name="Hobbies" value="playing">Playing music instruments<br>
+ <input type="checkbox" name="Hobbies" value="cooking">Cooking<br>
+ <input type="checkbox" name="Hobbies" value="drawing">Drawing
+ </td>
+ </tr>
+<tr>
+ <td>Favorite Color:</td>
+ <td>
+ <select name="COLOR">
+ <optgroup label="Btech">
+ <option value="COLOR">Blue</option>
+ <option value="COLOR">Red</option>
+ <option value="COLPR">Yellow</option>
+ <option value="COLOR">Black</option>
+ <option value="COLOR">White</option>
+ <option value="COLPR">Green</option>
+ <tr>
+ <td>Say something about yourself:</td>
+ <td>
+ <textarea rows="4" cols="23" name="Home address"></textarea>
+ </td>
+ </tr>
+<tr>
+ <td>
+ <input type="submit" value="Submit">
+  
+ <input type="reset" value="Clear">
+ </td>
+ </tr>
+</table>
+</center>
+</fieldset>
+</form>
+</body>
+</html>
+ 
